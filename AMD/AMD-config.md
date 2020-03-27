@@ -220,7 +220,7 @@ Settings relating to the kernel, for us we'll be enabling `DummyPowerManagement`
 * **PickerAudioAssist**: NO
    * Used for enabling VoiceOver like support in the picker, unless you want your hack talking to you keep this disabled
 * **PollAppleHotKeys**: NO
-   * Allows you to use Apple's hotkeys during boot, depending on the firmware you may need to use OpenUsbKbDxe.efi instead of OpenCore's builtin support. Do note that if you can select anything in OC's picker, disabling this option can help. Popular commands:
+   * Allows you to use Apple's hotkeys during boot, depending on the firmware you may need to use OpenUsbKbDxe.efi instead of OpenCore's builtin support. Do note that if you can't select anything in OC's picker, disabling this option can help. Popular commands:
       * `Cmd+V`: Enables verbose
       * `Cmd+Opt+P+R`: Cleans NVRAM 
       * `Cmd+R`: Boots Recovery partition
