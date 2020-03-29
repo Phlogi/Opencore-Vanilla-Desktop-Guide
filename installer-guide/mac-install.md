@@ -24,10 +24,13 @@ Next we'll want to format our USB HFS+/MacOS Journaled with GUID partition map, 
 
 ![Formatting the USB](https://i.imgur.com/numOUnF.png)
 
-Next run the `createinstallmedia` command provided by [Apple](https://support.apple.com/en-us/HT201372), note that the command is made for USB's formatted with the name `MyVolume`:
+Next run the `createinstallmedia` command provided by [Apple](https://support.apple.com/en-us/HT201372), note that the command is made for USB's formatted with the name `MyVolume` and using the Install app downloaded from AppStore. 
 
 ```text
+# AppStore
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+# GibMacOS, change the path
+sudo macOS\ Downloads/../../Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 ```
 
 This will take some time so may want to grab a coffee or continue reading the guide(to be fair you really shouldn't be following this guide step by step without reading the whole thing first)
